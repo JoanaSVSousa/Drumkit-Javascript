@@ -19,7 +19,7 @@ document.addEventListener("keydown",function(event){
     function makeSound(key) {
         switch (key) {
             case 'w':
-                var crash = new Audio ('https://github.com/JoanaSVSousa/Drumkit-Javascript/blob/960d929c3c8032f2ae5d703ad1db2885892b658e/sounds/crash.mp3');
+                var crash = new Audio ('sounds/crash.mp3');
                 crash.play();
                 break;
             case 'a':
